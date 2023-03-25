@@ -3,11 +3,13 @@
 :root {
     --cor-branca: #fff;
     --cor-dark1: #272727;
-    --cor-dark2:
-    --cor-dark3:
-    --cor-dark4:
-    --cor-dark5:
+    --cor-dark2: #2D2D2D;
+    --cor-dark3: #414141;
+    --cor-dark4: #1C1C1C;
+    --cor-dark5: #343434;
 }
+
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor-dark1);
 }
