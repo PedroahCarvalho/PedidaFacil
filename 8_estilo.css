@@ -18,23 +18,52 @@ body {
     background-color: var(--cor-dark1);
     color: var(--cor-branca);
 }
-header .botoes {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+.logo{
+    width: 45px;
 }
-header .botoes a {
-    color: var(--cor-branca);
-    cursor: pointer;
-
+header .menu {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
 header {
     background-color: var(--cor-dark2);
     box-shadow: 1px 1px 4px var(--cor-dark4);
     border-bottom: 1px solid red;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0 10%;
 }
+header .menu a {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--cor-branca);
+    transition: 1s;
+    font-weight: bold;
+
+}
+.menu {
+    gap: 3em;
+}
+.b_links {
+    background-color: var(--cor-dark3);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .estura_principal .artigo01 .titulo{
     padding-top: 20px;
     padding-left: 20px;
