@@ -70,7 +70,9 @@ header .menu a {
     padding-top: 20px;
     padding-left: 20px;
 }
-.artigo1img {
-    width: 200px;
-    height: 140;
-  }
+.rodape{
+    border: 2px solid #ffffff;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
