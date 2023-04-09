@@ -22,6 +22,7 @@ header .logo {
     width: 12px;
 }
 header .menu{
+    display: flex;
     flex-direction: row;
     text-align: center;
 }
