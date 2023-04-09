@@ -18,15 +18,15 @@ body {
     background-color: var(--cor-dark1);
     color: var(--cor-branca);
 }
-.logo{
-    width: 45px;
+header .logo {
+    width: 12px;
 }
-header .menu {
-    display: flex;
+header .menu{
     flex-direction: row;
     text-align: center;
 }
 header {
+    display: flex;
     background-color: var(--cor-dark2);
     box-shadow: 1px 1px 2px var(--cor-dark4);
     border-bottom: 3px solid red;
@@ -49,6 +49,13 @@ header .menu a {
     background-color: var(--cor-dark3);
     padding: 10px;
     border-radius: 10px;
+}
+
+.rodape{
+    border: 2px solid #ffffff;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }
 
 .rodape{
