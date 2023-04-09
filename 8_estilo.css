@@ -18,19 +18,20 @@ body {
     background-color: var(--cor-dark1);
     color: var(--cor-branca);
 }
-.logo{
-    width: 45px;
+header .logo {
+    width: 12px;
 }
-header .menu {
+header .menu{
     display: flex;
     flex-direction: row;
     text-align: center;
 }
 header {
+    display: flex;
     background-color: var(--cor-dark2);
     box-shadow: 1px 1px 4px var(--cor-dark4);
     border-bottom: 1px solid red;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0 10%;
 }
 header .menu a {
