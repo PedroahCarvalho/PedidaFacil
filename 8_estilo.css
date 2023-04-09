@@ -28,9 +28,9 @@ header .menu {
 }
 header {
     background-color: var(--cor-dark2);
-    box-shadow: 1px 1px 4px var(--cor-dark4);
-    border-bottom: 1px solid red;
-    justify-content: space-between;
+    box-shadow: 1px 1px 2px var(--cor-dark4);
+    border-bottom: 3px solid red;
+    justify-content: space-around;
     padding: 0 10%;
 }
 header .menu a {
@@ -43,6 +43,7 @@ header .menu a {
 }
 .menu {
     gap: 3em;
+    
 }
 .b_links {
     background-color: var(--cor-dark3);
@@ -50,8 +51,18 @@ header .menu a {
     border-radius: 10px;
 }
 
+.rodape{
+    border: 2px solid #ffffff;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
 
-
+.imglogo{
+    height: 40;
+    width: 80;
+    align-items: left;
+}
 
 
 
