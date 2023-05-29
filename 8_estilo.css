@@ -27,5 +27,9 @@ header {
 nav ul {
     list-style: none;
     display: flex;
+
     
+}
+nav ul li a{
+    text-decoration: none;
 }
