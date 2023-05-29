@@ -12,19 +12,20 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor-dark1);
-    color: var(--cor-branca)
+    color: var(--cor-branca);
+    margin: 0px;
 }
-header,
-.boteos{
-    display: flex; 
-    flex-direction: row;
-    align-items: center;
-}
+
 header {
+    display: flex; 
+    align-items: center;
     background-color: var(--cor-dark2);
     box-shadow: 1px 1px 4px var(--cor-dark4);
     height: 56px; 
-    justify-content: space-between;
-    padding: 0 10%;
+   /* justify-content: space-between;*/
 }
-
+nav ul {
+    list-style: none;
+    display: flex;
+    
+}
