@@ -16,21 +16,25 @@ body {
     margin: 0px;
 }
 
-header {
-    display: flex; 
-    align-items: center;
+header { 
     background-color: var(--cor-dark2);
     box-shadow: 1px 1px 4px var(--cor-dark4);
-    height: 56px; 
-   
+    height: 60px; 
+    text-align: end;
 }
-nav ul {
+
+.piroca{
+    display: inline-block;
+    width: 35%;
+}
+
+.piroca ul {
+    width: 30%;
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    
 }
-nav ul li a{
+
+.piroca ul li a{
     text-decoration: none;
     padding: 15px;
     color:#fff;
