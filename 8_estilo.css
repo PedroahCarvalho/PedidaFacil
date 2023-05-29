@@ -22,14 +22,18 @@ header {
     background-color: var(--cor-dark2);
     box-shadow: 1px 1px 4px var(--cor-dark4);
     height: 56px; 
-   /* justify-content: space-between;*/
+   
 }
 nav ul {
     list-style: none;
     display: flex;
-
+    justify-content: space-between;
     
 }
 nav ul li a{
     text-decoration: none;
+    padding: 15px;
+    color:#fff;
+    font-size: 14pt;
+
 }
