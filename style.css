@@ -9,11 +9,12 @@
     --cor-dark5: #343434;
 }
 
-body {
+body  {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor-dark1);
     color: var(--cor-branca);
     margin: 0px;
+
     
 }
 
