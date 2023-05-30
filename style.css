@@ -14,18 +14,23 @@ body {
     background-color: var(--cor-dark1);
     color: var(--cor-branca);
     margin: 0px;
+    
 }
 
 header { 
     background-color: var(--cor-dark2);
     box-shadow: 1px 1px 4px var(--cor-dark4);
     height: 60px; 
-    text-align: end;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header{
     display: inline-block;
     width: 35%;
+
 }
 
 .header ul {
@@ -45,4 +50,8 @@ header {
 input{
     width: 200px;
     height: 10px;
+}
+.imagem {
+    width: 10%;
+    height: 40px;
 }
