@@ -14,13 +14,17 @@ body {
     background-color: var(--cor-dark1);
     color: var(--cor-branca);
     margin: 0px;
+    
 }
 
 header { 
     background-color: var(--cor-dark2);
     box-shadow: 1px 1px 4px var(--cor-dark4);
     height: 60px; 
-    justify-content: space-around ;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header{
