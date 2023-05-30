@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 :root {
-    --cor-branca: #f8f8f8;
-    --cor-dark1: #a54017;
-    --cor-dark2: #9c3d05;
-    --cor-dark3: #f8f8f8;
-    --cor-dark4: #f8f8f8;
-    --cor-dark5: #f8f8f8;
+    --cor-branca: #fff;
+    --cor-dark1: #272727;
+    --cor-dark2: #d32323;
+    --cor-dark3: #414141;
+    --cor-dark4: #1C1C1C;
+    --cor-dark5: #343434;
 }
 
 body {
@@ -14,6 +14,7 @@ body {
     background-color: var(--cor-dark1);
     color: var(--cor-branca);
     margin: 0px;
+    
 }
 
 header { 
