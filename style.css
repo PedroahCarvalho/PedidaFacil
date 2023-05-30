@@ -14,6 +14,7 @@ body  {
     background-color: var(--cor-dark1);
     color: var(--cor-branca);
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 
     
 }
@@ -28,22 +29,22 @@ header {
     align-items: center;
 }
 
-.header{
+.menu{
     display: inline-block;
     width: 35%;
 
 }
 
-.header ul {
+.menu ul {
     width: 30%;
     list-style: none;
     display: flex;
-    justify-content: left;
-    position: relative;
-    left: 28%;
+    /* position: relative; */
+    
+
 }
 
-.header ul li a{
+.menu ul li a{
     text-decoration: none;
     padding: 15px;
     color:#fff;
@@ -58,4 +59,5 @@ input{
 .imagem {
     width: 10%;
     height: 40px;
+    margin-left: 12px;
 }
