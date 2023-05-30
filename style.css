@@ -23,21 +23,26 @@ header {
     text-align: end;
 }
 
-.piroca{
+.header{
     display: inline-block;
     width: 35%;
 }
 
-.piroca ul {
+.header ul {
     width: 30%;
     list-style: none;
     display: flex;
 }
 
-.piroca ul li a{
+.header ul li a{
     text-decoration: none;
     padding: 15px;
     color:#fff;
     font-size: 14pt;
 
+}
+
+input{
+    width: 200px;
+    height: 10px;
 }
