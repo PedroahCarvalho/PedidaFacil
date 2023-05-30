@@ -37,6 +37,9 @@ header {
     width: 30%;
     list-style: none;
     display: flex;
+    justify-content: left;
+    position: relative;
+    left: 28%;
 }
 
 .header ul li a{
