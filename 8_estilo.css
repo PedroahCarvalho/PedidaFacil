@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+:root {
+    --cor-branca: #f8f8f8;
+    --cor-dark1: #a54017;
+    --cor-dark2: #9c3d05;
+    --cor-dark3: #f8f8f8;
+    --cor-dark4: #f8f8f8;
+    --cor-dark5: #f8f8f8;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-dark1);
+    color: var(--cor-branca);
+    margin: 0px;
+}
+
+header { 
+    background-color: var(--cor-dark2);
+    box-shadow: 1px 1px 4px var(--cor-dark4);
+    height: 60px; 
+    text-align: end;
+}
+
+.piroca{
+    display: inline-block;
+    width: 35%;
+}
+
+.piroca ul {
+    width: 30%;
+    list-style: none;
+    display: flex;
+}
+
+.piroca ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color:#fff;
+    font-size: 14pt;
+
+}
