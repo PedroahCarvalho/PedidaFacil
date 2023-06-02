@@ -77,15 +77,16 @@ main img {
 
   }
   
-  .texto_downloads {
+.texto_downloads {
     position: absolute;
-    top: 68px;
+    top: 4.7%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff
     font-size: 24px;
+    width: 2000px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
-  }
+}
   
