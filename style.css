@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+:root {
+    --cor-branca: #fff;
+    --cor-dark1: #272727;
+    --cor-dark2: #d32323;
+    --cor-dark3: #414141;
+    --cor-dark4: #1C1C1C;
+    --cor-dark5: #343434;
+}
+
+body  {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-dark1);
+    color: var(--cor-branca);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+header { 
+    background-color: var(--cor-dark2);
+    box-shadow: 1px 1px 4px var(--cor-dark4);
+    height: 60px; 
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: inline-block;
+    width: 35%;
+
+}
+
+.menu ul {
+    width: 30%;
+    list-style: none;
+    display: flex;
+    /* position: relative; */
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color:#fff;
+    font-size: 14pt;
+
+}
+
+input{
+    width: 200px;
+    height: 10px;
+}
+.imagem {
+    width: 10%;
+    height: 40px;
+    margin-left: 12px;
+}
+main h1 {
+    text-align: center;
+    padding: auto;
+}
+main img {
+    width: 100%;
+    height: 100%;
+}
+.inicio_downloads {
+    position: relative;
+    display: inline-block;
+    background-image: url('imagens/churasco.jpg');
+    background-size: cover;
+    
+
+  }
+  
+.texto_downloads {
+    position: absolute;
+    top: 4.7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff
+    font-size: 24px;
+    width: 2000px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+  
