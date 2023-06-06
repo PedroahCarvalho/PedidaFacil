@@ -68,6 +68,21 @@ main img {
     width: 100%;
     height: 100%;
 }
+
+/* INDEX */
+.parte_superior{
+    display: flex;
+
+}
+.PrtSup01{
+    width: 35%;
+    height: 500px;
+    background-color: #ecdbdb;
+}
+.PrtSup02{
+    width: ;
+}
+/* PAGINA DONWLOADS */
 .inicio_downloads {
     position: relative;
     display: inline-block;
