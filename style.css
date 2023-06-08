@@ -29,18 +29,17 @@ header {
     height: 60px; 
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .menu{
     display: inline-block;
-    width: 35%;
+    /* width: 35%; */
 
 }
 
 .menu ul {
-    width: 30%;
     list-style: none;
     display: flex;
     /* position: relative; */
@@ -119,11 +118,11 @@ main h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff
-     /* font-size: 24px; */
-    /* width: 2000px; */
-    /* text-align: center;
+     font-size: 24px;
+    width: 2000px;
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px; */ 
+    padding: 10px; 
 
 }
 .texto_downloads2 {
