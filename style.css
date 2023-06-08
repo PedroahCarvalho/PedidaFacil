@@ -3,16 +3,12 @@
 :root {
     --cor-branca: #fff;
     --cor-dark1: #fff;
-    --cor-dark2: #df490e;
+    --cor-dark2: #ee3f13;
     --cor-dark3: #414141;
     --cor-dark4: #1C1C1C;
     --cor-dark5: #343434;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 body  {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor-dark1);
@@ -33,9 +29,12 @@ header {
 
 .menu{
     display: inline-block;
+    /* width: 35%; */
+
 }
 
 .menu ul {
+    width: 30%;
     list-style: none;
     display: flex;
 }
@@ -64,6 +63,11 @@ input{
 }
 main h1 {
     text-align: center;
+    padding: auto;
+}
+main img {
+    width: 100%;
+    height: 100%;
 }
 footer{
     height: 300px;
@@ -72,14 +76,11 @@ footer{
 /* INDEX */
 .topo{
     background-image: url(elements/imagen-emprentedor.jpeg);
-    width: 100%;
-    height: 100vh;
-    background-size:100% 100% ;
 }
 .parte_superior{
-    margin: 100px auto;
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 
 }
 .PrtSup01{
@@ -87,10 +88,6 @@ footer{
     height: 350px;
     border-radius: 10px;
     background-color: #926969;
-    display:inline-block;
-    background-image: url(elements/plano-de-negocios-restaurante.jpg);
-    background-size: 100% 100%;
-    margin-right: 25px;
 }
 .PrtSup02{
     width: 35%;
@@ -98,11 +95,6 @@ footer{
     text-align: center;
     background-color: rgb(211, 197, 197);
     font-size: 16pt;
-    display: inline-block;
-    margin-left: 25px;
-}
-.PrtSup02 h1, .PrtSup02 p {
-    display: inline-block;
 }
 .chamada-donwload{
     background-color: gray;
@@ -123,12 +115,12 @@ footer{
     top: 4.7%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffffff;
-    /* font-size: 24pt;
-    width: 2000px;
-    text-align: center;
+    color: #ffffff
+     /* font-size: 24px; */
+    /* width: 2000px; */
+    /* text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px;  */
+    padding: 10px; */ 
 
 }
 .texto_downloads2 {
