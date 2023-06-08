@@ -116,12 +116,12 @@ main h1 {
     top: 4.7%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffffff
-     font-size: 24px;
+    color: #ffffff;
+    /* font-size: 24pt;
     width: 2000px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px; 
+    padding: 10px;  */
 
 }
 .texto_downloads2 {
