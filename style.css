@@ -44,7 +44,7 @@ header {
 }
 
 .menu ul li a{
-    text-decoration: none;
+    text-decoration: none;ee3f13
     padding: 15px;
     color:#fff;
     font-size: 14pt;
@@ -139,4 +139,15 @@ main img {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
 }
-  
+.texto_downloads4 {
+    position: absolute;
+    top: 4.7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff
+     /* font-size: 24px; */
+    /* width: 2000px; */
+    /* text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px; */ 
+}
