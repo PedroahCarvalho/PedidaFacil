@@ -126,19 +126,18 @@ main h1 {
 }
 .texto_downloads2 {
     position: absolute;
-    top: 46%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
     font-size: 24px;
-    width: 400px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
-}
+  }
 .texto_downloads3 {
     position: absolute;
-    top: 80%;
+    top: 200%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
