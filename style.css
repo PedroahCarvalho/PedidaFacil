@@ -43,12 +43,11 @@ header {
 
 }
 
-.menu ul li a{
-    text-decoration: none;ee3f13
+.menu ul li a {
+    text-decoration: none;
     padding: 15px;
-    color:#fff;
+    color: #fff;
     font-size: 14pt;
-
 }
 
 input{
@@ -120,7 +119,7 @@ main img {
     top: 46%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffffff
+    color: #ffffff;
     font-size: 24px;
     width: 400px;
     text-align: center;
@@ -132,7 +131,7 @@ main img {
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffffff
+    color: #ffffff;
     font-size: 24px;
     width: 400px;
     text-align: center;
