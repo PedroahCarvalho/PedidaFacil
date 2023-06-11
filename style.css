@@ -3,7 +3,7 @@
 :root {
     --cor-branca: #fff;
     --cor-dark1: #fff;
-    --cor-dark2: #df490e;
+    --cor-dark2: #efdc11;
     --cor-dark3: #414141;
     --cor-dark4: #1C1C1C;
     --cor-dark5: #343434;
@@ -27,7 +27,7 @@ header {
     height: 60px; 
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -55,14 +55,23 @@ input{
     height: 10px;
 }
 .imagem {
-    width: 15%;
-    height: 90%;
-    margin-left: 12px;
+    width: 17%;
+    height: 96%;
+    margin-left: -20%;
+    border-radius: 20px;
 }
 .botão-donwload{
     background-color: rgb(20, 195, 20);
     border-radius: 10px;
 
+}
+.botão-login{
+    background-color: rgb(20, 195, 20);
+    border-radius: 10px;
+}
+.botão-ajuda{
+    background-color: rgb(20, 195, 20);
+    border-radius: 10px;
 }
 main h1 {
     text-align: center;
@@ -135,37 +144,103 @@ footer{
 }
 .texto_downloads2 {
     position: absolute;
-    top: 46%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
-    font-size: 24px;
-    width: 400px;
+    font-size: 0%;
+    width: 50%;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
+}
+.img-downloads_2{
+    width: auto;
+    height: auto;
+    border-radius: 100px;
 }
 .texto_downloads3 {
     position: absolute;
-    top: 80%;
-    left: 50%;
+    top: 83%;
+    left: 38%;
     transform: translate(-50%, -50%);
     color: #ffffff;
-    font-size: 24px;
-    width: 400px;
+    width: auto;
+    height: auto;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
+}
+.img_downloads3{
+    width: 389px;
+    height: 106px;
+    border-radius: 20px;
+}
+.texto_downloads3_1 {
+    position: absolute;
+    top: 83%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+}
+.img_downloads3_1{
+    width: auto;
+    height: auto;
+    border-radius: 20px;
 }
 .texto_downloads4 {
     position: absolute;
-    top: 4.7%;
+    top: auto;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffffff
-     /* font-size: 24px; */
-    /* width: 2000px; */
-    /* text-align: center;
+    color: #ffffff;
+    font-size: auto;
+    width: 100%;
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px; */ 
+    padding: 0.2%;
 }
+.posicao_footer h1{
+    bottom: -32%;
+}
+.area-login {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .formulario-login {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  a {
+    color: rgb(0, 255, 17);
+  }
+  
