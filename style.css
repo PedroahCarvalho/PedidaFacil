@@ -76,9 +76,6 @@ input{
     background-color: rgb(20, 195, 20);
     border-radius: 10px;
 }
-main h1 {
-    text-align: center;
-}
 footer{
     height: 300px;
     background-color: var(--cor-dark2);
@@ -101,7 +98,6 @@ footer{
     width: 35%;
     height: 350px;
     border-radius: 10px;
-    background-color: #926969;
     display:inline-block;
     background-image: url(elements/plano-de-negocios-restaurante.jpg);
     background-size: 100% 100%;
@@ -110,12 +106,14 @@ footer{
 .PrtSup02{
     width: 35%;
     height: 350px;
-    text-align: center;
-    background-color: rgb(211, 197, 197);
     font-size: 16pt;
     display: inline-block;
     margin-left: 25px;
     color: black;
+}
+..PrtSup02 p {
+    margin-top: 15px;
+
 }
 .PrtSup02 h1, .PrtSup02 p {
     display: inline-block;
@@ -124,7 +122,6 @@ footer{
     width: 35%;
     height: 350px;
     text-align: center;
-    background-color: rgb(211, 197, 197);
     font-size: 16pt;
     display: inline-block;
     margin-right: 25px;
@@ -134,9 +131,8 @@ footer{
     width: 35%;
     height: 350px;
     border-radius: 10px;
-    background-color: #926969;
     display:inline-block;
-    background-image: url(elements/plano-de-negocios-restaurante.jpg);
+    background-image: url(imagens/imagem01.png);
     background-size: 100% 100%;
     margin-left: 25px;
 }
