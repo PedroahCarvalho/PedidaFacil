@@ -30,6 +30,9 @@ header {
     justify-content: space-around;
     align-items: center;
 }
+header h1 {
+    font-size: left;
+} 
 .cabeçalho h1{
     left: 0%;
 }
