@@ -136,6 +136,12 @@ footer{
     background-size: 100% 100%;
     margin-left: 25px;
 }
+.texto{
+    text-align: left;
+}
+.titulo{
+    text-align: left;
+}
 .chamada-donwload{
     text-align: center;
     color: black;
