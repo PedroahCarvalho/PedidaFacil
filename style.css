@@ -71,6 +71,7 @@ input{
     text-decoration: underline;
     color: whitesmoke;
 }
+<<<<<<< HEAD
 
 footer{
     background-color: rgb(153, 153, 153);
@@ -81,6 +82,20 @@ footer{
     justify-content: space-around;
     align-items: center;
     padding: 5px;
+=======
+/* .botão-login{
+    background-color: rgb(20, 195, 20);
+    border-radius: 10px;
+}
+.botão-ajuda{
+    background-color: rgb(20, 195, 20);
+    border-radius: 10px;
+} */
+footer{
+    height: 100px;
+    background-color: var(--cor-dark2);
+    margin-top: 150px;
+>>>>>>> 6f0b202f8e7bc97de6f9c562410797282b010d4e
 }
 /* INDEX */
 .topo{
@@ -150,7 +165,11 @@ footer{
 }
 .vantagens-conteudo{
     width: 35%;
+<<<<<<< HEAD
     height: 800px;
+=======
+    height: 700px;
+>>>>>>> 6f0b202f8e7bc97de6f9c562410797282b010d4e
     border-radius: 10px;
     margin: 25px;
     color: black;
@@ -211,6 +230,7 @@ footer ul{}
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
+    text-align: center;
     /* font-size: 24pt;
     width: 2000px;
     text-align: center;
@@ -220,7 +240,7 @@ footer ul{}
 }
 .texto_downloads2 {
     position: absolute;
-    top: 45%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
@@ -236,7 +256,7 @@ footer ul{}
 }
 .texto_downloads3 {
     position: absolute;
-    top: 83%;
+    top: 110%;
     left: 36%;
     transform: translate(-50%, -50%);
     color: #ffffff;
@@ -252,7 +272,7 @@ footer ul{}
 }
 .texto_downloads3_1 {
     position: absolute;
-    top: 83%;
+    top: 110%;
     left: 66%;
     transform: translate(-50%, -50%);
     color: #ffffff;
@@ -268,15 +288,15 @@ footer ul{}
 }
 .texto_downloads4 {
     position: absolute;
-    top: auto;
+    top: 130%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
-    font-size: auto;
+    /* font-size: auto;
     width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 0.2%;
+    padding: 0.2%; */
 }
 .posicao_footer h1{
     bottom: -26.6%;
@@ -326,7 +346,7 @@ footer ul{}
 
   .container {
     max-width: 500px;
-    margin: 30px auto 0;
+    margin: 35px auto 0;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 5px;
@@ -346,7 +366,7 @@ footer ul{}
   input[type="text"],s
   textarea {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     border: 1px solid #cccccc;
     border-radius: 4px;
   }
