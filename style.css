@@ -111,7 +111,7 @@ footer{
     margin-left: 25px;
     color: black;
 }
-..PrtSup02 p {
+.PrtSup02 p {
     margin-top: 15px;
 
 }
@@ -159,11 +159,13 @@ footer{
     position: relative;
     display: inline-block;
     background-image: url('imagens/churasco.jpg');
-    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-size:100% 100% ;
 }
 .inicio_downloads-imagem{
     width: auto;    
-    height: 100%;
+    height: 10%;
 }
   
 .texto_downloads {
@@ -181,7 +183,7 @@ footer{
 }
 .texto_downloads2 {
     position: absolute;
-    top: 42%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
