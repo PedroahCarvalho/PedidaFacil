@@ -44,12 +44,18 @@ header {
     display: flex;
 }
 
-.menu ul li a {
+.botão{
     text-decoration: none;
     padding: 15px;
     color: #fff;
     font-size: 15pt;
     margin-left: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.botão:hover{
+    background-color: #11ad00 ;
 }
 
 input{
@@ -72,6 +78,17 @@ footer{
     align-items: center;
     padding: 5px;
 }
+.botão-footer{
+    text-decoration: none;
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 15pt;
+    margin-left: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
 .links-footer ul {
     display: flex;
 }
@@ -139,8 +156,6 @@ footer{
 .vantagens{
     display: flex;
     justify-content: center;
-
-
 }
 .vantagens-conteudo{
     width: 35%;
@@ -149,7 +164,6 @@ footer{
     margin: 25px;
     color: black;
     border: solid 1px gray;
-
 }
 .texto-imagem {
     text-align: center;
@@ -204,12 +218,6 @@ footer{
     transform: translate(-50%, -50%);
     color: #ffffff;
     text-align: center;
-    /* font-size: 24pt;
-    width: 2000px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px;  */
-
 }
 .texto_downloads2 {
     position: absolute;
@@ -265,11 +273,6 @@ footer{
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
-    /* font-size: auto;
-    width: 100%;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 0.2%; */
 }
 .posicao_footer h1{
     bottom: -26.6%;
