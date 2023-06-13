@@ -72,8 +72,25 @@ footer{
     align-items: center;
     padding: 5px;
 }
+<<<<<<< HEAD
+.botão-footer{
+    text-decoration: none;
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 15pt;
+    margin-left: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.botão-footer:hover{
+    background-color: #800046;
+}
+=======
+>>>>>>> 2e7e1d08b820ac0a2207419fea9f9384f64cadd1
 .links-footer ul {
     display: flex;
+    list-style: none;
 }
 /* INDEX */
 .topo{
