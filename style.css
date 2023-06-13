@@ -227,11 +227,6 @@ footer{
     transform: translate(-50%, -50%);
     color: #ffffff;
     text-align: center;
-    /* font-size: 24pt;
-    width: 2000px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px;  */
 }
 .texto_downloads2 {
     position: absolute;
@@ -330,9 +325,6 @@ footer{
     background-color: #17b01c;
     color: #fff;
     border: none;
-    
-    
-
   }
   
   p {
@@ -366,15 +358,6 @@ footer{
     margin-bottom: 5px;
     color: #333333;
   }
-
-  /* input[type="text"],s
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-    margin: 10px;
-  } */
 
   textarea {
     height: 150px;
