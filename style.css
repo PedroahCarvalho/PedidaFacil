@@ -29,12 +29,9 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-header h1 {
-    font-size: left;
 } 
 .cabeçalho h1{
-    left: 0%;
+    font-size: left;
 }
 
 .menu{
@@ -219,7 +216,7 @@ footer{
 }
 .texto_downloads2 {
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
@@ -236,7 +233,7 @@ footer{
 .texto_downloads3 {
     position: absolute;
     top: 83%;
-    left: 38%;
+    left: 36%;
     transform: translate(-50%, -50%);
     color: #ffffff;
     width: auto;
@@ -252,7 +249,7 @@ footer{
 .texto_downloads3_1 {
     position: absolute;
     top: 83%;
-    left: 64%;
+    left: 66%;
     transform: translate(-50%, -50%);
     color: #ffffff;
     width: auto;
