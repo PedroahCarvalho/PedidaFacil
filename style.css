@@ -22,13 +22,14 @@ body  {
 }
 
 header { 
-    background-color: var(--cor-dark2);
+    background-color: rgb(156, 156, 156);
     box-shadow: 1px 1px 4px var(--cor-dark4);
     height: 60px; 
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 5px;
 } 
 .cabeçalho h1{
     font-size: left;
@@ -36,8 +37,6 @@ header {
 
 .menu{
     display: inline-block;
-    /* width: 35%; */
-
 }
 
 .menu ul {
@@ -58,28 +57,23 @@ input{
     height: 10px;
 }
 .imagem {
-    width: 17%;
-    height: 96%;
-    margin-left: -20%;
+    width: 20%;
+    height: 100%;
+    margin-left: -14.5%;
     border-radius: 20px;
 }
-.botão-donwload{
-    background-color: rgb(20, 195, 20);
-    border-radius: 10px;
-
-}
-/* .botão-login{
-    background-color: rgb(20, 195, 20);
-    border-radius: 10px;
-}
-.botão-ajuda{
-    background-color: rgb(20, 195, 20);
-    border-radius: 10px;
-} */
 footer{
-    height: 100px;
-    background-color: var(--cor-dark2);
-    margin-top: 150px;
+    background-color: rgb(156, 156, 156);
+    box-shadow: 1px 1px 4px var(--cor-dark4);
+    height: 160px; 
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.links-footer ul {
+    display: flex;
 }
 /* INDEX */
 .topo{
@@ -146,6 +140,7 @@ footer{
     display: flex;
     justify-content: center;
 
+
 }
 .vantagens-conteudo{
     width: 35%;
@@ -153,7 +148,7 @@ footer{
     border-radius: 10px;
     margin: 25px;
     color: black;
-    border:gray 2px;
+    border: solid 1px gray;
 
 }
 .texto-imagem {
@@ -172,6 +167,7 @@ footer{
 .chamada-donwload{
     text-align: center;
     color: black;
+    margin: 100px 0 100px 0;
 }
 .botão-pagina-incial{
     margin-top: 50px;
