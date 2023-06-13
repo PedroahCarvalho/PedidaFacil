@@ -316,7 +316,7 @@ footer{
     background-color: #17b01c;
     color: #fff;
     border: none;
-    transition: ease;
+    
     
 
   }
@@ -353,14 +353,14 @@ footer{
     color: #333333;
   }
 
-  input[type="text"],s
+  /* input[type="text"],s
   textarea {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border: 1px solid #cccccc;
     border-radius: 4px;
     margin: 10px;
-  }
+  } */
 
   textarea {
     height: 150px;
