@@ -209,12 +209,13 @@ footer{
 /* PAGINA DONWLOADS */
 .inicio_downloads {
     position:fixed;
+    position: fixed;
     display: inline-block;
     background-image: url('imagens/churasco.jpg');
     width: 100%;
     height: 100vh;
-    background-size:100% 100% ;
-}
+    background-size: 100% 100%;
+    }
 .inicio_downloads-imagem{
     width: auto;    
     height: 10%;
@@ -387,4 +388,15 @@ footer{
     flex: 1;
     margin-right: 20px;
   }
+<<<<<<< HEAD
  
+=======
+.pagina_sobre {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    color: #333333;
+    font-size: 20px;
+    margin-right: 20px;
+}
+>>>>>>> dbede332c7ca8fdf6a2733e555f49a718e50155d
