@@ -62,7 +62,7 @@ header {
     transition: background-color 0.3s ease;
 }
 .botão:hover{
-    background-color: #800046;
+    background-color: #194e4aec;
 }
 input{
     width: 200px;
@@ -95,7 +95,7 @@ footer{
     transition: background-color 0.3s ease;
 }
 .botão-footer:hover{
-    background-color: #800046;
+    background-color: #194e4aec;
 }
 .links-footer ul {
     display: flex;
