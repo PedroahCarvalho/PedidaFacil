@@ -395,11 +395,20 @@ footer{
     flex: 1;
     margin-right: 20px;
   }
+<<<<<<< HEAD
+=======
+.sobre{
+    display: flex;
+    justify-content:center ;
+    margin-top: 5%;
+}
+>>>>>>> 434ead757b3c1fc66fa5ead24be2377b8d86e86b
 .pagina_sobre {
+    width: 70%;
+    height: 900px;
     position: relative;
-    justify-content: center;
     text-align: center;
     color: #333333;
     font-size: 20px;
-    margin-right: 20px;
+    margin-right: 20px;   
 }
