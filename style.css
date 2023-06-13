@@ -208,7 +208,7 @@ footer{
 
 /* PAGINA DONWLOADS */
 .inicio_downloads {
-    position: relative;
+    position:fixed
     display: inline-block;
     background-image: url('imagens/churasco.jpg');
     width: 100%;
@@ -260,6 +260,7 @@ footer{
     text-align: center;
     padding: 10px;
 }
+<<<<<<< Updated upstream
 .img_downloads3{
     width: 389px;
     height: 106px;
@@ -404,3 +405,5 @@ footer{
     flex: 1;
     margin-right: 20px;
   }
+=======
+>>>>>>> Stashed changes
