@@ -296,7 +296,7 @@ footer{
   button[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #4caf50;
+    background-color: #17b01c;
     color: #fff;
     border: none;
     transition: ease;
@@ -357,6 +357,7 @@ footer{
     padding: 20px 30px;
     border-radius: 5px;
     cursor: pointer;
+    transition: ease;
   }
 
   input[type="submit"]:hover {
