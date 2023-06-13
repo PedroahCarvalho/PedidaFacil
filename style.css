@@ -207,6 +207,7 @@ footer{
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
+    text-align: center;
     /* font-size: 24pt;
     width: 2000px;
     text-align: center;
