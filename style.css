@@ -136,6 +136,36 @@ footer{
     background-size: 100% 100%;
     margin-left: 25px;
 }
+.texto{
+    text-align: left;
+}
+.titulo{
+    text-align: left;
+}
+.vantagens{
+    display: flex;
+    justify-content: center;
+
+}
+.vantagens-conteudo{
+    width: 35%;
+    height: 900px;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 25px;
+    color: black;
+
+}
+.vantagens-conteudo h3{
+    margin: 25px;
+}
+.vantagens-conteudo p {
+    font-size: 16pt;
+    text-align: left;
+    margin-top: 35px;
+    margin: 30px;
+}
+
 .chamada-donwload{
     text-align: center;
     color: black;
