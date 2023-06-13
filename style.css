@@ -12,7 +12,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Oxygen', sans-serif;
 }
 body  {
     font-family: Arial, Helvetica, sans-serif;
@@ -23,14 +22,13 @@ body  {
 }
 
 header { 
-    background-color: rgb(153, 153, 153);
-    box-shadow: 0px 4px 22px 0px rgba(74,74,74,1);
+    background-color: var(--cor-dark2);
+    box-shadow: 1px 1px 4px var(--cor-dark4);
     height: 60px; 
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 5px;
 } 
 .cabeçalho h1{
     font-size: left;
@@ -45,7 +43,6 @@ header {
 .menu ul {
     list-style: none;
     display: flex;
-    justify-content: center;
 }
 
 .menu ul li a {
@@ -61,28 +58,16 @@ input{
     height: 10px;
 }
 .imagem {
-    width: 20%;
-    height: 100%;
-    margin-left: -15%;
+    width: 17%;
+    height: 96%;
+    margin-left: -20%;
     border-radius: 20px;
 }
+.botão-donwload{
+    background-color: rgb(20, 195, 20);
+    border-radius: 10px;
 
-.botão:hover{
-    text-decoration: underline;
-    color: whitesmoke;
 }
-<<<<<<< HEAD
-
-footer{
-    background-color: rgb(153, 153, 153);
-    box-shadow: 0px 4px 22px 0px rgba(74,74,74,1);
-    height: 160px; 
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 5px;
-=======
 /* .botão-login{
     background-color: rgb(20, 195, 20);
     border-radius: 10px;
@@ -95,7 +80,6 @@ footer{
     height: 100px;
     background-color: var(--cor-dark2);
     margin-top: 150px;
->>>>>>> 6f0b202f8e7bc97de6f9c562410797282b010d4e
 }
 /* INDEX */
 .topo{
@@ -165,11 +149,7 @@ footer{
 }
 .vantagens-conteudo{
     width: 35%;
-<<<<<<< HEAD
-    height: 800px;
-=======
     height: 700px;
->>>>>>> 6f0b202f8e7bc97de6f9c562410797282b010d4e
     border-radius: 10px;
     margin: 25px;
     color: black;
@@ -190,7 +170,6 @@ footer{
 }
 
 .chamada-donwload{
-    margin: 0 0 100px 0;
     text-align: center;
     color: black;
 }
@@ -207,8 +186,6 @@ footer{
     background-color: rgb(20, 195, 20);
     font-size: 18pt;
 }
-
-footer ul{}
 
 /* PAGINA DONWLOADS */
 .inicio_downloads {
@@ -366,7 +343,7 @@ footer ul{}
   input[type="text"],s
   textarea {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border: 1px solid #cccccc;
     border-radius: 4px;
   }
@@ -380,7 +357,7 @@ footer ul{}
     background-color: #008000;
     color: #ffffff;
     border: none;
-    padding: 15px 25px;
+    padding: 20px 30px;
     border-radius: 5px;
     cursor: pointer;
   }
