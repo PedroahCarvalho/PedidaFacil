@@ -274,6 +274,7 @@ footer{
     transform: translate(-50%, -50%);
     color: #ffffff;
 }
+/* area da pagina login */
 .posicao_footer h1{
     bottom: -26.6%;
 }
@@ -305,6 +306,9 @@ footer{
     background-color: #4caf50;
     color: #fff;
     border: none;
+    transition: ease;
+    
+
   }
   
   p {
