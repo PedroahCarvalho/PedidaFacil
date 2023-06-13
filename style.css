@@ -150,11 +150,14 @@ footer{
 .vantagens-conteudo{
     width: 35%;
     height: 900px;
-    background-color: gray;
     border-radius: 10px;
     margin: 25px;
     color: black;
+    border:gray 2px;
 
+}
+.texto-imagem {
+    text-align: center;
 }
 .vantagens-conteudo h3{
     margin: 25px;
