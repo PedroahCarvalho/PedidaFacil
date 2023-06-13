@@ -71,18 +71,18 @@ input{
     border-radius: 10px;
 
 }
-.botão-login{
+/* .botão-login{
     background-color: rgb(20, 195, 20);
     border-radius: 10px;
 }
 .botão-ajuda{
     background-color: rgb(20, 195, 20);
     border-radius: 10px;
-}
+} */
 footer{
-    height: 300px;
+    height: 100px;
     background-color: var(--cor-dark2);
-    margin-top: 200px;
+    margin-top: 150px;
 }
 /* INDEX */
 .topo{
@@ -152,7 +152,7 @@ footer{
 }
 .vantagens-conteudo{
     width: 35%;
-    height: 900px;
+    height: 700px;
     border-radius: 10px;
     margin: 25px;
     color: black;
