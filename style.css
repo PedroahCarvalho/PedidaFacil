@@ -77,10 +77,9 @@ input{
 footer{
     background-color: rgb(156, 156, 156);
     box-shadow: 1px 1px 4px var(--cor-dark4);
+    width: 100%;
     height: 160px; 
     flex-wrap: wrap;
-    display: flex;
-    justify-content: space-around;
     align-items: center;
     padding: 5px;
 }
@@ -97,6 +96,8 @@ footer{
 .botão-footer:hover{
     background-color: #194e4aec;
 }
+
+
 .links-footer ul {
     display: flex;
     list-style: none;
@@ -194,16 +195,22 @@ footer{
 }
 .botão-pagina-incial{
     margin-top: 50px;
-    background-color: rgb(20, 195, 20);
-    display: inline-block;
+    /* background-color: rgb(20, 195, 20); */
+    /* display: inline-block; */
 }
-.botão-pagina-incial a {
+.botão-donwload{
     text-decoration: none;
     color: black;
     padding: 15px;
     border-radius: 10px;
     background-color: rgb(20, 195, 20);
     font-size: 18pt;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botão-donwload:hover{
+    background-color:rgb(84, 228, 84) ;
 }
 
 /* PAGINA DONWLOADS */
@@ -388,9 +395,6 @@ footer{
     flex: 1;
     margin-right: 20px;
   }
-<<<<<<< HEAD
- 
-=======
 .pagina_sobre {
     position: relative;
     justify-content: center;
@@ -399,4 +403,3 @@ footer{
     font-size: 20px;
     margin-right: 20px;
 }
->>>>>>> dbede332c7ca8fdf6a2733e555f49a718e50155d
