@@ -84,13 +84,16 @@ footer{
     color: #fff;
     font-size: 15pt;
     margin-left: 17px;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
+.botão-footer:hover{
+    background-color: #800046;
+}
 .links-footer ul {
     display: flex;
+    list-style: none;
 }
 /* INDEX */
 .topo{
