@@ -216,7 +216,7 @@ footer{
 }
 .texto_downloads2 {
     position: absolute;
-    top: 45%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
@@ -232,7 +232,7 @@ footer{
 }
 .texto_downloads3 {
     position: absolute;
-    top: 83%;
+    top: 110%;
     left: 36%;
     transform: translate(-50%, -50%);
     color: #ffffff;
@@ -248,7 +248,7 @@ footer{
 }
 .texto_downloads3_1 {
     position: absolute;
-    top: 83%;
+    top: 110%;
     left: 66%;
     transform: translate(-50%, -50%);
     color: #ffffff;
@@ -264,15 +264,15 @@ footer{
 }
 .texto_downloads4 {
     position: absolute;
-    top: auto;
+    top: 130%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
-    font-size: auto;
+    /* font-size: auto;
     width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 0.2%;
+    padding: 0.2%; */
 }
 .posicao_footer h1{
     bottom: -26.6%;
