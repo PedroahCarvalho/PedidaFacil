@@ -3,7 +3,7 @@
 :root {
     --cor-branca: #fff;
     --cor-dark1: #fff;
-    --cor-dark2: #efdc11;
+    --cor-dark2: #ef1111;
     --cor-dark3: #414141;
     --cor-dark4: #1C1C1C;
     --cor-dark5: #343434;
@@ -22,22 +22,21 @@ body  {
 }
 
 header { 
-    background-color: var(--cor-dark2);
+    background-color: rgb(156, 156, 156);
     box-shadow: 1px 1px 4px var(--cor-dark4);
     height: 60px; 
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+    padding: 5px;
+} 
 .cabeçalho h1{
-    left: 0%;
+    font-size: left;
 }
 
 .menu{
     display: inline-block;
-    /* width: 35%; */
-
 }
 
 .menu ul {
@@ -52,36 +51,56 @@ header {
     font-size: 15pt;
     margin-left: 17px;
 }
-
+.botão{
+    text-decoration: none;
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 15pt;
+    margin-left: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.botão:hover{
+    background-color: #194e4aec;
+}
 input{
     width: 200px;
     height: 10px;
 }
 .imagem {
-    width: 17%;
-    height: 96%;
-    margin-left: -20%;
+    width: 20%;
+    height: 100%;
+    margin-left: -14.5%;
     border-radius: 20px;
 }
-.botão-donwload{
-    background-color: rgb(20, 195, 20);
-    border-radius: 10px;
-
-}
-.botão-login{
-    background-color: rgb(20, 195, 20);
-    border-radius: 10px;
-}
-.botão-ajuda{
-    background-color: rgb(20, 195, 20);
-    border-radius: 10px;
-}
-main h1 {
-    text-align: center;
-}
 footer{
-    height: 300px;
-    background-color: var(--cor-dark2);
+    background-color: rgb(156, 156, 156);
+    box-shadow: 1px 1px 4px var(--cor-dark4);
+    width: 100%;
+    height: 160px; 
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px;
+}
+.botão-footer{
+    text-decoration: none;
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 15pt;
+    margin-left: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.botão-footer:hover{
+    background-color: #194e4aec;
+}
+
+
+.links-footer ul {
+    display: flex;
+    list-style: none;
 }
 /* INDEX */
 .topo{
@@ -100,7 +119,6 @@ footer{
     width: 35%;
     height: 350px;
     border-radius: 10px;
-    background-color: #926969;
     display:inline-block;
     background-image: url(elements/plano-de-negocios-restaurante.jpg);
     background-size: 100% 100%;
@@ -109,29 +127,105 @@ footer{
 .PrtSup02{
     width: 35%;
     height: 350px;
-    text-align: center;
-    background-color: rgb(211, 197, 197);
     font-size: 16pt;
     display: inline-block;
     margin-left: 25px;
+    color: black;
+}
+.PrtSup02 p {
+    margin-top: 15px;
+
 }
 .PrtSup02 h1, .PrtSup02 p {
     display: inline-block;
 }
-.chamada-donwload{
-    background-color: gray;
+.PrtSup03{
+    width: 35%;
+    height: 350px;
+    text-align: center;
+    font-size: 16pt;
+    display: inline-block;
+    margin-right: 25px;
+    color: black;
+}
+.PrtSup04{
+    width: 35%;
+    height: 350px;
+    border-radius: 10px;
+    display:inline-block;
+    background-image: url(imagens/imagem01.png);
+    background-size: 100% 100%;
+    margin-left: 25px;
+}
+.texto{
+    text-align: left;
+}
+.titulo{
+    text-align: left;
+}
+.vantagens{
+    display: flex;
+    justify-content: center;
+}
+.vantagens-conteudo{
+    width: 35%;
+    height: 700px;
+    border-radius: 10px;
+    margin: 25px;
+    color: black;
+    border: solid 1px gray;
+}
+.texto-imagem {
     text-align: center;
 }
+.vantagens-conteudo h3{
+    margin: 25px;
+}
+.vantagens-conteudo p {
+    font-size: 16pt;
+    text-align: left;
+    margin-top: 35px;
+    margin: 30px;
+}
+
+.chamada-donwload{
+    text-align: center;
+    color: black;
+    margin: 100px 0 100px 0;
+}
+.botão-pagina-incial{
+    margin-top: 50px;
+    /* background-color: rgb(20, 195, 20); */
+    /* display: inline-block; */
+}
+.botão-donwload{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(20, 195, 20);
+    font-size: 18pt;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botão-donwload:hover{
+    background-color:rgb(84, 228, 84) ;
+}
+
 /* PAGINA DONWLOADS */
 .inicio_downloads {
-    position: relative;
+    position:fixed;
+    position: fixed;
     display: inline-block;
     background-image: url('imagens/churasco.jpg');
-    background-size: cover;
-}
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    }
 .inicio_downloads-imagem{
     width: auto;    
-    height: 1048px;
+    height: 10%;
 }
   
 .texto_downloads {
@@ -140,16 +234,11 @@ footer{
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
-    /* font-size: 24pt;
-    width: 2000px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px;  */
-
 }
 .texto_downloads2 {
     position: absolute;
-    top: 42%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
@@ -165,8 +254,8 @@ footer{
 }
 .texto_downloads3 {
     position: absolute;
-    top: 83%;
-    left: 38%;
+    top: 110%;
+    left: 36%;
     transform: translate(-50%, -50%);
     color: #ffffff;
     width: auto;
@@ -181,8 +270,8 @@ footer{
 }
 .texto_downloads3_1 {
     position: absolute;
-    top: 83%;
-    left: 64%;
+    top: 110%;
+    left: 66%;
     transform: translate(-50%, -50%);
     color: #ffffff;
     width: auto;
@@ -197,16 +286,20 @@ footer{
 }
 .texto_downloads4 {
     position: absolute;
-    top: auto;
+    top: 130%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
-    font-size: auto;
+    /* font-size: auto;
     width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 0.2%;
+<<<<<<< HEAD
+    padding: 10px; */ 
+=======
+    padding: 0.2%; */
 }
+/* area da pagina login */
 .posicao_footer h1{
     bottom: -26.6%;
 }
@@ -219,10 +312,15 @@ footer{
     background-color: #f2f2f2;
     padding: 20px;
     border: 1px solid #ddd;
+    position: relative;
+    top: 50%;
+    margin-top: 50%;
   }
   
   h2 {
     text-align: center;
+    padding: 10px;
+    color: #17b01c;
   }
   
   input[type="text"],
@@ -235,7 +333,7 @@ footer{
   button[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #4caf50;
+    background-color: #17b01c;
     color: #fff;
     border: none;
   }
@@ -248,4 +346,73 @@ footer{
   a {
     color: rgb(0, 255, 17);
   }
-  
+  .bodyaj {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 35px auto 0;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .h1aj {
+    color: #11ad00;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333;
+  }
+
+  textarea {
+    height: 150px;
+    width: 420px;
+  }
+
+  input[type="submit"] {
+    background-color: #008000;
+    color: #ffffff;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #006400;
+    position:center;
+  }
+  .contato-info {
+    font-size: 14px;
+    margin-top: 30px;
+    color: #333333; 
+}
+.form-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+<<<<<<< HEAD
+=======
+.sobre{
+    display: flex;
+    justify-content:center ;
+    margin-top: 5%;
+}
+>>>>>>> 434ead757b3c1fc66fa5ead24be2377b8d86e86b
+.pagina_sobre {
+    width: 70%;
+    height: 900px;
+    position: relative;
+    text-align: center;
+    color: #333333;
+    font-size: 20px;
+    margin-right: 20px;   
+>>>>>>> 69b53f613a0d725edba459985faf0e62066fba47
+}

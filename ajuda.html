@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="icon" href="elements/logo2.0" type="image/x-icon" >
+    <title>Pedida Facil</title>
 </head>
 <body>
     <header class="cabeçalho">
@@ -13,13 +14,50 @@
         <a href="index.html" class="imagem"><img class="imagem" src="elements/logo2.0"></a>
         <nav class="menu">
             <ul>
-                <li><a href="login.html" class="botão-login" >Login</a></li>
-                <li><a href="download.html" class="botão-donwload">Download</a></li>
-                <li><a href="ajuda.html" class="botão-ajuda" >Ajuda</a></li>
+                <li><a href="login.html" class="botão" >Login</a></li>
+                <li><a href="download.html" class="botão">Download</a></li>
+                <li><a href="ajuda.html" class="botão" >Ajuda</a></li>
             </ul>
         </div>
     </header>
     <main>
     </main>
+    <div class="container">
+  <h1 class="h1aj">Fale com a gente : </h1>
+  <form action="mailto:suporte@exemplo.com" method="post" enctype="text/plain">
+    <label for="email">E-mail:</label>
+    <input type="text" id="email" name="email" required>
+
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="motivo">Motivo do contato:</label>
+    <input type="text" id="motivo" name="motivo" required>
+
+    <label for="descricao">Descrição:</label>
+    <textarea id="descricao" name="descricao" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+  <div class="contato-info">
+      <p>Rua Antônina Dias Beltrão, 31<br>
+      Matosinhos - São João del-Rei - MG<br>
+      CEP 36307-010</p>
+
+      <p>(32) 3313-4186 • contato@pedidafacil.com</p>
+
+      <p>Expediente: de segunda a sexta, das 8h às 17h30</p>
+    </div>
+</div>
+<footer>
+    <div class="links-footer">
+        <ul>
+            <li><a href="login.html" class="botão-footer" ></a></li>
+            <li><a href="ajuda.html" class="botão-footer">Ajuda</a></li>
+            <li><a href="sobre.html" class="botão-footer" >Sobre</a></li>
+            <li><a href="download.html" class="botão-footer">Download</a></li>
+        </ul>
+    </div>
+</footer>
 </body>
 </html>
